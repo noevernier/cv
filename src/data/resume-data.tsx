@@ -8,9 +8,9 @@ export const RESUME_DATA = {
   location: "Paris, France, CET",
   locationLink: "https://www.google.com/maps/place/Paris",
   about:
-    "Software engineering student at Télécom Paris in France.",
+    "Computer Science and Applied Mathematics student at Télécom paris and currently enrolled in the MVA Master’s program at ENS Paris-Saclay.",
   summary:
-    "An enthusiastic software and machine learning mathematics student, I am deeply passionate about artificial intelligence. Proficient in Python, I specialize in utilizing libraries such as PyTorch, TensorFlow, and scikit-learn for machine learning applications. My dedication lies in advancing AI capabilities and leveraging mathematical concepts for innovative solutions.",
+    "As an Applied Mathematics student at Télécom Paris, currently pursuing the MVA Master’s program at ENS Paris-Saclay, I am passionate about machine learning and its mathematical foundations. With strong proficiency in Python, I specialize in leveraging libraries like PyTorch, TensorFlow, and scikit-learn to develop advanced AI models. My focus spans machine learning, computer vision, and data analysis, where I aim to apply cutting-edge techniques and statistical modeling to solve complex problems and drive innovation in AI.",
   avatarUrl: "https://media.licdn.com/dms/image/C4D03AQH3Tnn5CmbbPQ/profile-displayphoto-shrink_800_800/0/1667925712176?e=1709164800&v=beta&t=tpo-hsnCbc3zGknigt21LlYx2MAvXxZcbSmPZU4rgn0",
   personalWebsiteUrl: "https://noevernier.github.io",
   contact: {
@@ -36,6 +36,12 @@ export const RESUME_DATA = {
   },
   education: [
     {
+      school: "ENS Paris-Saclay",
+      degree: "MSc in Applied Mathematics, Master MVA",
+      start: "2024",
+      end: "2025",
+    },
+    {
       school: "Télécom Paris, Institut Polytechnique de Paris",
       degree: "B.S. in Computer Science and & Engineering, MSc in Applied Mathematics",
       start: "2022",
@@ -49,6 +55,16 @@ export const RESUME_DATA = {
       },
   ],
   work: [
+    {
+      company: "Edo Theory",
+      link: "https://edotheory.com/",
+      badges: ["Internship", "Hedge Fund"],
+      title: "Quantitative Researcher Intern",
+      start: "jul 2024",
+      end: "aug 2024",
+      description:
+        "Collaborated with a team of quantitative researchers to develop and implement trading strategies, leveraging machine learning and statistical modeling using Order Book data. Conducted backtesting and performance analysis to optimize strategies and enhance profitability.",
+    },
     {
       company: "Rezel AI",
       link: "https://github.com/RezelAI",
